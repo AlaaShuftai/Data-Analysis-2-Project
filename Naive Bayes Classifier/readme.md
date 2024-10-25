@@ -51,5 +51,27 @@ The analysis yielded several interesting findings:
 - **Age and Family**: The `Age`, `SibSp`, and `Parch` features showed moderate importance, suggesting that family relationships and age also affected survival chances.
 - **Embarkation Point**: The place of embarkation (captured by `Embarked_Q` and `Embarked_S`) had a smaller, but noticeable influence on survival.
 
+### libraries we used:
+
+NumPy: A library for numerical computations in Python, especially for handling arrays and performing mathematical operations.
+
+Pandas: A data manipulation and analysis library that provides data structures (DataFrames) for efficiently handling large datasets.
+
+Scikit-Learn: A machine learning library providing tools for data preprocessing, classification, regression, clustering, and model evaluation.
+Matplotlib: A plotting library for creating static, interactive, and animated visualizations in Python.
+
+Seaborn: Built on Matplotlib, this library offers a high-level interface for drawing statistical graphics.
+
+NLTK (Natural Language Toolkit): A suite of libraries for natural language processing, such as tokenization, stemming, and sentiment analysis.
+
+Orange: A visual programming and machine learning toolkit for data mining and visualization, especially for non-coders.
+
+MLxtend: Provides additional tools and extensions for Scikit-Learn, including association rule mining and data analysis tools.
+
+Statsmodels: A library for estimating and testing statistical models, with tools for performing hypothesis tests and regression analysis.
+
+Pyplot: A Matplotlib module that provides a MATLAB-like interface for creating various types of plots and charts.
+
+
 ### Conclusion:
 The Naive Bayes model performed well in predicting survival on the Titanic dataset. Important features like **Pclass**, **Sex**, and **Fare** played a key role in determining the survival likelihood of passengers. The balance between accuracy, precision, and recall metrics demonstrated that the model effectively handled this classification task. Future improvements could include experimenting with different algorithms or more advanced feature engineering to enhance prediction accuracy.
