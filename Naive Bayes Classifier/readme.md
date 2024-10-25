@@ -2,28 +2,17 @@
 
 ### Short description:
 In this task, we implemented the Naive Bayes classifier using Scikit-Learn to categorize data based on probabilistic reasoning. After preprocessing the data, we split it into training and testing sets. We then initialized the Naive Bayes model (e.g., GaussianNB for continuous data) and trained it on the training set. Finally, we evaluated the model’s performance on the test set using accuracy and other relevant metrics to assess its classification effectiveness.
+Titanic Dataset (https://www.kaggle.com/c/titanic/data)
 
-
-### 1. Data Processing Steps:
-- **Data Loading**: The Titanic dataset was loaded from a publicly available URL.
-- **Missing Data Handling**:
-  - The `Age` column had missing values, which were filled using the mean value of the column.
-  - The `Embarked` column also contained missing values, and these were filled using the mode (most frequent value).
-- **Feature Selection**: The selected features for model training included:
-  - `Pclass` (Passenger Class)
-  - `Age` (Passenger Age)
-  - `SibSp` (Number of Siblings/Spouses aboard)
-  - `Parch` (Number of Parents/Children aboard)
-  - `Fare` (Ticket Fare)
   - **One-hot encoded** categorical variables:
     - `Sex_male`
     - `Embarked_Q`
     - `Embarked_S`
 
-### 2. Model Choice:
+### Model Choice:
 A Naive Bayes Classifier was used to predict the target variable, **Survived** (whether a passenger survived or not). This classification model is suitable for this task, where the goal is to predict a binary outcome (survived or not).
 
-### 3. Performance Evaluation:
+### Performance Evaluation:
 The performance of the Naive Bayes model was evaluated using common classification metrics:
 - **Accuracy**: The ratio of correct predictions to total predictions made by the model.
 - **Precision**: The percentage of true positive predictions out of all positive predictions.
@@ -38,13 +27,13 @@ The performance of the Naive Bayes model was evaluated using common classificati
 
 Additionally, a **Confusion Matrix** was generated to provide a visual breakdown of true positives, true negatives, false positives, and false negatives.
 
-### 4. Feature Importance:
+### Feature Importance:
 Naive Bayes models don’t explicitly provide feature importance, but insights can still be gathered from the data distribution and its influence on survival predictions. In this analysis:
 - **Key Features**: 
   - **Pclass**, **Sex_male**, and **Fare** were the most important features in predicting survival.
   - A bar chart was plotted to illustrate the relative importance of these features in the classification process.
 
-### 5. Insights Gained:
+### Insights Gained:
 The analysis yielded several interesting findings:
 - **Passenger Class and Gender**: The `Pclass` and `Sex_male` features significantly influenced survival outcomes. Lower-class passengers and males were less likely to survive.
 - **Fare**: Higher ticket fares correlated with a higher likelihood of survival, indicating that wealthier passengers may have had better access to resources during the disaster.
