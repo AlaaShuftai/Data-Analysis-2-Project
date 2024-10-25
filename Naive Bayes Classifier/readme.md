@@ -16,19 +16,6 @@ The performance of the Naive Bayes model was evaluated using common classificati
 - **Recall**: The model's ability to correctly identify all true positive instances.
 - **F1 Score**: A harmonic mean of precision and recall, balancing false positives and false negatives.
   
-**Evaluation Results**:
-- **Accuracy**: [insert accuracy score]
-- **Precision**: [insert precision score]
-- **Recall**: [insert recall score]
-- **F1 Score**: [insert F1 score]
-
-Additionally, a **Confusion Matrix** was generated to provide a visual breakdown of true positives, true negatives, false positives, and false negatives.
-
-### Feature Importance:
-Naive Bayes models don’t explicitly provide feature importance, but insights can still be gathered from the data distribution and its influence on survival predictions. In this analysis:
-- **Key Features**: 
-  - **Pclass**, **Sex_male**, and **Fare** were the most important features in predicting survival.
-  - A bar chart was plotted to illustrate the relative importance of these features in the classification process.
 
 ### Insights Gained:
 The analysis yielded several interesting findings:
