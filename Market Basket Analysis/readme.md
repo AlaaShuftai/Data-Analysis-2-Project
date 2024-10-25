@@ -4,6 +4,8 @@ Short description:
 
 In this Task, we conducted Market Basket Analysis to discover associations between items in transaction data. Using the Apriori algorithm from the MLxtend library, we generated frequent itemsets based on a minimum support threshold. From these itemsets, we derived association rules and filtered them based on metrics such as lift to identify the strongest item associations. Finally, we sorted the rules by lift, starting from the highest values, to focus on the most significant relationships.
 
+Dataset 11: E-Commerce Retail Dataset (https://www.kaggle.com/carrie1/ecommerce-data)
+
 
 
 ### 1. Objective:
