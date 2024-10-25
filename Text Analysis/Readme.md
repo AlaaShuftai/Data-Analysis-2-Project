@@ -4,10 +4,10 @@
 
 In this Task, we performed text analysis to extract insights from textual data. We began with preprocessing steps, including tokenization, converting text to lowercase, and removing punctuation. We then applied TF-IDF to convert text into numerical features for analysis. For visualization, we generated a word cloud to highlight common terms. Finally, we implemented sentiment analysis using Scikit-Learn to understand sentiment trends and patterns in the text data.
 
-
-### 1. Data Loading and Preprocessing
+### Data
 The analysis starts by loading Yelp's dataset files, which contain user tips and check-ins. The text data from these files is processed for further analysis.
 Yelp Reviews Dataset (https://www.kaggle.com/yelp-dataset/yelp-dataset)
+
 #### Text Processing:
 A custom function `text_process` is defined to handle the preprocessing of text data. The steps include:
 - **Removal of punctuation**: To clean the text by excluding irrelevant symbols.
@@ -17,30 +17,8 @@ A custom function `text_process` is defined to handle the preprocessing of text 
 This preprocessing step improves the quality of the data for the machine learning model.
 
 
-### 2. Text Analysis
-A frequency count of words is conducted to uncover the most common terms used in user tips:
-- **Word Frequency Analysis**: Using `Counter` from the `collections` module, the most frequent words in user reviews are identified.
-- **Visualization**: A bar plot is created to visually represent word frequencies, highlighting key phrases users often mention in their reviews.
-- **Wordcloud**: condense text data into a visual summary, where word size represents frequency.
 
-### 4. Model Training
-The preprocessed text data is used to train a machine learning model:
-- **Data Splitting**: The dataset is split into training (80%) and testing (20%) sets using `train_test_split`.
-- **Model Training**: A Complement Naive Bayes model is trained on the vectorized data.
-- **TF-IDF: Term Frequency-Inverse Document Frequency**
-- **Navies Bayes Modelling**
-
-### 5. Performance Metrics
-After training the model, the following metrics are computed to assess its performance:
-- **Accuracy**: The overall accuracy of the model on the test data is printed.
-- **Classification Report**: Precision, recall, and F1-score for each star rating class are provided, revealing how well the model performed across different ratings.
-
-### 6. Additional Data Analysis
-Further analysis is performed on other aspects of the dataset:
-- **Business ID Length Analysis**: A histogram of the lengths of the `business_id` column is generated to provide insights into the distribution of business ID lengths.
-- **Frequency Analysis of `business_id`**: Similar to the word frequency analysis, the frequency of business IDs is calculated and visualized in a bar plot.
-
-- ### 7. libraries we used:
+- ### libraries we used:
 1. kagglehub: A library that helps you interact with Kaggle's datasets.
 2. numpy: Short for Numerical Python, it's crucial for array and matrix operations.
 3. pandas: Essential for data manipulation and analysis, it uses dataframes.
@@ -60,7 +38,7 @@ Further analysis is performed on other aspects of the dataset:
 17. sklearn.naive_bayes.ComplementNB: A variant of the Naive Bayes classifier.
 18. sklearn.feature_extraction.text.CountVectorizer: Converts text documents to a matrix of token counts.
     
-### Summary Report
+### Summary
 
 #### Text Preprocessing
 - **Methods Used**:
