@@ -40,6 +40,26 @@ Further analysis is performed on other aspects of the dataset:
 - **Business ID Length Analysis**: A histogram of the lengths of the `business_id` column is generated to provide insights into the distribution of business ID lengths.
 - **Frequency Analysis of `business_id`**: Similar to the word frequency analysis, the frequency of business IDs is calculated and visualized in a bar plot.
 
+- ### 7. libraries we used:
+1. kagglehub: A library that helps you interact with Kaggle's datasets.
+2. numpy: Short for Numerical Python, it's crucial for array and matrix operations.
+3. pandas: Essential for data manipulation and analysis, it uses dataframes.
+4. seaborn: A statistical data visualization library based on Matplotlib, making plots more attractive and easier to understand.
+5. matplotlib.pyplot: Used for creating static, animated, and interactive visualizations in Python.
+6. tensorflow: An open-source platform for machine learning, especially for neural networks.
+7. tensorflow.keras.preprocessing.text.Tokenizer: A tool for tokenizing text data for deep learning models.
+8. sklearn.metrics: Various modules for evaluating the performance of machine learning models.
+9. sklearn.svm.LinearSVC: A Linear Support Vector Classification model.
+10. sklearn.feature_extraction.text.TfidfVectorizer: Converts a collection of raw documents to a matrix of TF-IDF features.
+11. sklearn.naive_bayes.MultinomialNB: A Naive Bayes classifier for multinomially distributed data.
+12. sklearn.model_selection: Tools for splitting datasets and cross-validation.
+13. datetime: For manipulating dates and times.
+14. string: Common string operations.
+15. nltk: The Natural Language Toolkit, essential for working with human language data.
+16. nltk.corpus.stopwords: A collection of stopwords to be filtered out of text data.
+17. sklearn.naive_bayes.ComplementNB: A variant of the Naive Bayes classifier.
+18. sklearn.feature_extraction.text.CountVectorizer: Converts text documents to a matrix of token counts.
+    
 ### Summary Report
 
 #### Text Preprocessing
