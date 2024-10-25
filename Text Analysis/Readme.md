@@ -46,11 +46,7 @@ This preprocessing step improves the quality of the data for the machine learnin
   - Tokenization to break text into meaningful units.
 - **Impact**: These preprocessing steps helped reduce noise and enhance the model's ability to interpret meaningful patterns in the data.
 
-#### Model Performance
-- **Model Used**: Complement Naive Bayes.
-- **Accuracy**: The model achieved an accuracy of approximately `X%` (replace with actual accuracy from results).
-- **Classification Report**: The classification report provides insights into how well each star rating category was predicted. It highlights categories that were easier to classify and those that were more frequently misclassified.
-
+- 
 #### Insights from Analysis
 - **Word Frequency**: The most common words in user reviews offer valuable insights into customer sentiments, recurring themes, and areas of concern.
 - **Star Rating Distribution**: Understanding the distribution of ratings provides businesses with actionable insights into customer satisfaction levels.
