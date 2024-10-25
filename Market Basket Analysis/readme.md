@@ -54,6 +54,7 @@ The analysis follows these steps:
   - 
  
     **The libraries we used:**
+    
 Pandas: A library for data manipulation and analysis, providing structures like DataFrames for handling and organizing large datasets.
 
 MLxtend: A library that extends Scikit-Learn, offering tools for data analysis and machine learning, including the Apriori algorithm for association rule mining.
