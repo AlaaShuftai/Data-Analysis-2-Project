@@ -16,24 +16,19 @@ A custom function `text_process` is defined to handle the preprocessing of text 
 
 This preprocessing step improves the quality of the data for the machine learning model.
 
-### 2. Data Transformation
-To enhance the text data for analysis:
-- The `compliment_count` feature is categorized into star ratings using the `pd.cut()` function.
-- The text data is processed through the `text_process` function and stored in a new column named `processed_text`.
 
-### 3. Text Analysis
+### 2. Text Analysis
 A frequency count of words is conducted to uncover the most common terms used in user tips:
 - **Word Frequency Analysis**: Using `Counter` from the `collections` module, the most frequent words in user reviews are identified.
 - **Visualization**: A bar plot is created to visually represent word frequencies, highlighting key phrases users often mention in their reviews.
+- **Wordcloud**: condense text data into a visual summary, where word size represents frequency.
 
-### 4. Model Training and Evaluation
+### 4. Model Training
 The preprocessed text data is used to train a machine learning model:
 - **Data Splitting**: The dataset is split into training (80%) and testing (20%) sets using `train_test_split`.
-- **Vectorization**: The text is converted into numerical data through `CountVectorizer`, which transforms the text into a vectorized format.
 - **Model Training**: A Complement Naive Bayes model is trained on the vectorized data.
-- **Evaluation**: Predictions are made on the test set, and the model's performance is evaluated using:
-  - **Accuracy score**.
-  - A **classification report** that provides precision, recall, and F1-score for each star rating (class).
+- **TF-IDF: Term Frequency-Inverse Document Frequency**
+- **Navies Bayes Modelling**
 
 ### 5. Performance Metrics
 After training the model, the following metrics are computed to assess its performance:
