@@ -1,6 +1,7 @@
 ## Text Analysis (Extra Model)
 
-Short description:
+### Short description:
+
 In this Task, we performed text analysis to extract insights from textual data. We began with preprocessing steps, including tokenization, converting text to lowercase, and removing punctuation. We then applied TF-IDF to convert text into numerical features for analysis. For visualization, we generated a word cloud to highlight common terms. Finally, we implemented sentiment analysis using Scikit-Learn to understand sentiment trends and patterns in the text data.
 
 
