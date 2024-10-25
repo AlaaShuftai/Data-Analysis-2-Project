@@ -1,4 +1,10 @@
-## Market Basket Analysis Report
+## Market Basket Analysis 
+
+Short description:
+
+In this Task, we conducted Market Basket Analysis to discover associations between items in transaction data. Using the Apriori algorithm from the MLxtend library, we generated frequent itemsets based on a minimum support threshold. From these itemsets, we derived association rules and filtered them based on metrics such as lift to identify the strongest item associations. Finally, we sorted the rules by lift, starting from the highest values, to focus on the most significant relationships.
+
+
 
 ### 1. Objective:
 The objective of this analysis is to perform **Market Basket Analysis (MBA)** using association rule learning techniques on retail transaction data. The goal is to uncover relationships between frequently purchased products, providing valuable insights for marketing strategies and inventory management.
