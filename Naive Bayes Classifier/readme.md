@@ -2,6 +2,7 @@
 
 ### Short description:
 In this task, we implemented the Naive Bayes classifier using Scikit-Learn to categorize data based on probabilistic reasoning. After preprocessing the data, we split it into training and testing sets. We then initialized the Naive Bayes model (e.g., GaussianNB for continuous data) and trained it on the training set. Finally, we evaluated the model’s performance on the test set using accuracy and other relevant metrics to assess its classification effectiveness.
+
 Titanic Dataset (https://www.kaggle.com/c/titanic/data)
 
 
