@@ -19,7 +19,7 @@ The analysis follows these steps:
   - Key metrics such as the total number of items, unique purchase days, and unique months were calculated.
   
 - **Data Visualization**:
-  - The top 20 most purchased items were visualized using a bar plot, helping identify popular products.
+  - The top 5 most purchased items were visualized using a bar plot, helping identify popular products.
 
 - **Market Basket Analysis**:
   - The **Apriori algorithm** was applied to identify frequent itemsets in the dataset and generate **association rules** between products.
