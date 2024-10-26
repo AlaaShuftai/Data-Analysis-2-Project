@@ -26,4 +26,4 @@ Pyplot: A Matplotlib module that provides a MATLAB-like interface for creating v
 
 
 ### Conclusion:
-It a comprehensive walkthrough of a Naive Bayes Classifier implementation, from data preprocessing to model evaluation. The simplicity of Naive Bayes offers an efficient solution for classification tasks, particularly when feature independence can be assumed. This approach provides a solid foundation for future analysis or adaptation to other datasets.
+This project implemented a Naive Bayes classifier using Scikit-Learn to categorize data based on probabilistic principles. After preprocessing, the dataset was split into training and testing sets. A Gaussian Naive Bayes model was trained on the training data and evaluated on the testing data using accuracy and other metrics. Insights from the chart suggest that the port of embarkation significantly influences survival predictions, possibly due to boarding order, lifeboat access, or ship layout factors.
