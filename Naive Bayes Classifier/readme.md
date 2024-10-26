@@ -9,20 +9,6 @@ Titanic Dataset (https://www.kaggle.com/c/titanic/data)
 ### Model Choice:
 A Naive Bayes Classifier was used to predict the target variable, **Survived** (whether a passenger survived or not). This classification model is suitable for this task, where the goal is to predict a binary outcome (survived or not).
 
-### Performance Evaluation:
-The performance of the Naive Bayes model was evaluated using common classification metrics:
-- **Accuracy**: The ratio of correct predictions to total predictions made by the model.
-- **Precision**: The percentage of true positive predictions out of all positive predictions.
-- **Recall**: The model's ability to correctly identify all true positive instances.
-- **F1 Score**: A harmonic mean of precision and recall, balancing false positives and false negatives.
-  
-
-### Insights Gained:
-The analysis yielded several interesting findings:
-- **Passenger Class and Gender**: The `Pclass` and `Sex_male` features significantly influenced survival outcomes. Lower-class passengers and males were less likely to survive.
-- **Fare**: Higher ticket fares correlated with a higher likelihood of survival, indicating that wealthier passengers may have had better access to resources during the disaster.
-- **Age and Family**: The `Age`, `SibSp`, and `Parch` features showed moderate importance, suggesting that family relationships and age also affected survival chances.
-- **Embarkation Point**: The place of embarkation (captured by `Embarked_Q` and `Embarked_S`) had a smaller, but noticeable influence on survival.
 
 ### libraries we used:
 
@@ -47,4 +33,4 @@ Pyplot: A Matplotlib module that provides a MATLAB-like interface for creating v
 
 
 ### Conclusion:
-The Naive Bayes model performed well in predicting survival on the Titanic dataset. Important features like **Pclass**, **Sex**, and **Fare** played a key role in determining the survival likelihood of passengers. The balance between accuracy, precision, and recall metrics demonstrated that the model effectively handled this classification task. Future improvements could include experimenting with different algorithms or more advanced feature engineering to enhance prediction accuracy.
+Survival on the Titanic dataset, with key features like Embarked and Sex being pivotal in determining survival likelihood. The evaluation metrics provided a comprehensive balance of accuracy, precision, and recall. Future improvements could involve experimenting with different algorithms or more advanced feature  techniques.
