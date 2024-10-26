@@ -26,4 +26,4 @@ Pyplot: A Matplotlib module that provides a MATLAB-like interface for creating v
 
 
 ### Conclusion:
-This project implemented a Naive Bayes classifier using Scikit-Learn to categorize data based on probabilistic principles. After preprocessing, the dataset was split into training and testing sets. A Gaussian Naive Bayes model was trained on the training data and evaluated on the testing data using accuracy and other metrics. Insights from the chart suggest that the port of embarkation significantly influences survival predictions, possibly due to boarding order, lifeboat access, or ship layout factors.
+This project implemented a naive Bayes classifier using Scikit-Learn to classify data based on probabilistic principles. After preprocessing, the dataset was split into training and test sets. A Gaussian naive Bayes model was trained on the training data and evaluated on the test data using accuracy and other metrics. Insights from the final graphs suggest that the port of embarkation significantly affects survival predictions, possibly due to the order of embarkation or many other factors.
